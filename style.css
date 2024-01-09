@@ -43,7 +43,7 @@ main
 {   
     min-width: 420px;
     max-width: 375px;
-    /* max-height: 375px; */
+    max-height: 375px;
     background: var(--White);
     height: auto; 
     width: 28rem;
@@ -54,9 +54,9 @@ main
     justify-content: flex-start;
     gap: 1rem;
     padding: 1.5rem;
-    margin: 3rem    ; 
+    margin: 3rem; 
     z-index: 1;
-    transition: all .5s ease-in-out ;
+    transition: all .5s ease-in ;
 }
 .headInc
 {
@@ -119,8 +119,8 @@ main
 {
     main
     {
-        max-width :90% ; 
-        min-width :90% ; 
+        max-width :90%; 
+        min-width :90%; 
         width: auto;
         margin: 2rem 2rem;
         min-height: 100%;
@@ -128,7 +128,7 @@ main
     }
     .img
     {
-        width: 100%;
+        min-height: 100%;
         background-size: cover;
     }
     
