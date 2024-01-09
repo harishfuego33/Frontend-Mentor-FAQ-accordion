@@ -41,7 +41,7 @@ p,h1,h2,h3,h4,h5,h6
 }
 main
 {   
-    min-width: 375px;
+    min-width: 420px;
     max-width: 375px;
     /* max-height: 375px; */
     background: var(--White);
