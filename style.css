@@ -16,7 +16,6 @@ body
 {
     font-size: 62.5%;
     min-height: 100vh;
-    position: relative;
     background: var(--Lightpink);
     font-family: 'Work Sans', sans-serif;
     display: flex;
@@ -41,6 +40,8 @@ p,h1,h2,h3,h4,h5,h6
 }
 main
 {
+    min-width: 440px;
+    max-height: 440px;
     background: var(--White);
     height: auto; 
     width: 28rem;
@@ -111,6 +112,15 @@ main
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-/* @media only screen and (min-width:371){
+@media only screen and (max-width:440px)
+{
+    main
+    {
+        min-width: calc(100% - 20px); /* Adjusted to consider 10px margin on each side */
+        max-width: calc(100% - 20px); /* Adjusted to consider 10px margin on each side */
+        width: auto;
+        margin: 2rem 2rem;
+        height: auto;
+    }
     
-} */
+}
